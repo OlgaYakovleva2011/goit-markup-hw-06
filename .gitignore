@@ -1,0 +1,4 @@
+node_modules/
+secret.txt
+!important.log
+*.log
