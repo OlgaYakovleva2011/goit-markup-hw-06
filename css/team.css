@@ -1,9 +1,27 @@
 .team{
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     padding-left: 24px;
     padding-right: 24px;
+}
+@media screen and (min-width: 768px){
+    .team-list{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 64px 24px;
+    }
+}
+@media screen and (min-width: 1158px){
+    .team{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .team-list{
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
 }
 .team1{
     background-color: #fff;
