@@ -161,9 +161,10 @@
     }
     .footer-subscribe-wrapper{
         align-items: flex-start;
+        text-align: left;
         width: auto;
     }
-    .footer-social-title, .footer-subscribe-title{
+    .footer-social-title, .subscribe-title{
         text-align: left;
     }
     .subscribe-form{
@@ -193,5 +194,12 @@
     }
     .subscribe-input{
         width: 264px;
+    }
+    .footer-subscribe-wrapper{
+        align-items: flex-start;
+        text-align: left;
+    }
+    .subscribe-title{
+        text-align: left;
     }
 }
