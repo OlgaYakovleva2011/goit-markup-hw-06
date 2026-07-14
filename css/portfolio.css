@@ -75,8 +75,8 @@
     margin-right: auto;
     padding-top: 96px;
     padding-bottom: 96px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0;
+    padding-right: 0;
 }
 .portfolio-img{
     display: block;
@@ -102,6 +102,8 @@
     .portfolio{
         padding-top: 120px;
         padding-bottom: 120px;
+        padding-left: 0;
+        padding-right: 0;
     }
     .portfolio-list{
         gap: 48px 24px;

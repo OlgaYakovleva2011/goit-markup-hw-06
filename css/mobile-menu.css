@@ -101,6 +101,13 @@
 .mobile-menu-social-link:hover, .mobile-menu-social-link:focus{
     background-color: #31d0aa;
 }
+.mobile-menu-social-list{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
 @media screen and (min-width: 768px) {
     .mobile-menu-open-btn{
         display: none;

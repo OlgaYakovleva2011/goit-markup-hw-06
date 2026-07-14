@@ -49,6 +49,7 @@
 .footer-social-list{
     display: flex;
     gap: 16px;
+    justify-content: center;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -86,7 +87,7 @@
     width: 100%;
 }
 .subscribe-input{
-    width: 100%px;
+    width: 100%;
     max-width: 396px;
     height: 40px;
     margin: 0;
@@ -138,7 +139,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 72px;
+    gap: 16px;
     align-items: flex-start;
     text-align: center;
 }
@@ -152,8 +153,15 @@
         padding-left: 108px;
         padding-right: 108px;
     }
-    .footer-info, .footer-social-box, .footer-subscribe-wrapper{
+    .footer-info{
         align-items: flex-start;
+    }
+    .footer-social-box{
+        align-items: flex-start;
+    }
+    .footer-subscribe-wrapper{
+        align-items: flex-start;
+        width: auto;
     }
     .footer-social-title, .footer-subscribe-title{
         text-align: left;
